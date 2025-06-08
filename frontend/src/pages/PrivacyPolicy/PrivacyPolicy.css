@@ -1,0 +1,65 @@
+.privacy-policy-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.privacy-policy-container h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.privacy-intro {
+  text-align: center;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.privacy-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.privacy-section {
+  background-color: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.privacy-section h2 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 0.5rem;
+}
+
+.privacy-section p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.privacy-contact {
+  margin-top: 2rem;
+  text-align: center;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-email {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.contact-email:hover {
+  color: #2980b9;
+}
